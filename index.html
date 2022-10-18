@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <img
+          class="sunnyside-img"
+          src="./images/logo.svg"
+          alt="Sunnyside-logo"
+        />
+        <div class="nav-link" id="navLinks">
+          <iconify-icon
+            class="iconify click"
+            icon="clarity:times-line"
+            onclick="hideMenu()"
+          ></iconify-icon>
+          <ul>
+            <li>About</li>
+            <li>Service</li>
+            <li>Projects</li>
+            <li class="contact">CONTACT</li>
+          </ul>
+        </div>
+        <iconify-icon
+          class="iconify click"
+          icon="ant-design:menu-outlined"
+          onclick="showMenu()"
+        ></iconify-icon>
+        <div class="backdrop"></div>
+      </nav>
+      <h1>WE ARE CREATIVES</h1>
+      <!-- <iconify-icon class="down-icon" icon="gg:arrow-long-down"></iconify-icon> -->
+      <iconify-icon
+        class="down-icon"
+        icon="heroicons:arrow-long-down"
+      ></iconify-icon>
+    </section>
+    <sectiion class="transform">
+      <div class="d-flex flex">
+        <div class="col">
+          <h2>Transform your brand</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non
+            veritatis optio eos quasi laborum expedita suscipit repudiandae.
+            Laboriosam consequatur eligendi earum incidunt pariatur facilis
+            saepe voluptate magnam quibusdam quod!
+          </p>
+          <h3><a href="#">LEARN MORE</a></h3>
+        </div>
+        <div class="col-img">
+          <img src="./images/desktop/image-transform.jpg" alt="" />
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="col-img">
+          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+        <div class="col">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non
+            veritatis optio eos quasi laborum expedita suscipit repudiandae.
+            Laboriosam consequatur eligendi earum incidunt pariatur facilis
+            saepe voluptate magnam quibusdam quod!
+          </p>
+          <h3><a href="#" class="red">LEARN MORE</a></h3>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="img-bg">
+          <h2>Graphic Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non
+            veritatis optio eos quasi laborum expedita suscipit repudiandae.
+          </p>
+        </div>
+        <div class="img-bg-">
+          <h2>Photography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non
+            veritatis optio eos quasi laborum expedita.
+          </p>
+        </div>
+      </div>
+    </sectiion>
+    <section class="client">
+      <h2>CLIENTS TESTIMONIALS</h2>
+      <div class="d-flex">
+        <div class="col">
+          <img src="./images/image-emily.jpg" alt="emily" />
+          <p>
+            Lorem sit, consectetur adipisicing elit. Dolor cupiditate illo
+            accusamus, mollitia minus incidunt excepturi atque quia, neque
+            libero error unde nesciunt ad nostrum .
+          </p>
+          <h3>Emily R.</h3>
+          <h2>Marketing Director</h2>
+        </div>
+        <div class="col">
+          <img src="./images/image-thomas.jpg" alt="emily" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            cupiditate illo accusamus, mollitia minus incidunt excepturi atque
+            enim doloribus laborum quia, neque.
+          </p>
+          <h3>Thomas. S</h3>
+          <h2>Cheif Operating Officer</h2>
+        </div>
+        <div class="col">
+          <img src="./images/image-emily.jpg" alt="emily" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            cupiditate, excepturi atque enim doloribus laborum quia, neque
+            libero error unde nesciunt ad nostrum .
+          </p>
+          <h3>Emily R.</h3>
+          <h2>Marketing Director</h2>
+        </div>
+      </div>
+    </section>
+    <section class="images">
+      <div class="d-flex flex">
+        <div class="d-flex">
+          <div class="col">
+            <img
+              src="./images/desktop/image-gallery-milkbottles.jpg"
+              alt="milkbottles"
+            />
+          </div>
+          <div class="col">
+            <img src="./images/desktop/image-gallery-orange.jpg" alt="orange" />
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="col">
+            <img src="./images/desktop/image-gallery-cone.jpg" alt="cone" />
+          </div>
+          <div class="col">
+            <img
+              src="./images/desktop/image-gallery-sugarcubes.jpg"
+              alt="sugarcubes"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img src="./images/logo.svg" alt="logo" />
+      <div class="links">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+      </div>
+      <div class="icons">
+        <iconify-icon icon="ant-design:facebook-filled"></iconify-icon>
+        <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon
+        ><iconify-icon icon="akar-icons:twitter-fill"></iconify-icon
+        ><iconify-icon icon="akar-icons:pinterest-fill"></iconify-icon>
+      </div>
+    </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
