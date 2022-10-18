@@ -244,7 +244,7 @@ p {
   height: 68vh;
   text-align: center;
   padding-inline: 10rem;
-  padding-top: 23%;
+  padding-top: 20%;
 }
 
 .transform .d-flex .img-bg h2,
@@ -277,8 +277,18 @@ p {
   .transform .d-flex .img-bg,
   .transform .d-flex .img-bg- {
     padding: 2rem;
-    padding-top: 33%;
+    padding-top: 36%;
   }
+}
+
+@media (max-width: 750px) and (max-width: 505px) {
+  .transform .d-flex .img-bg,
+  .transform .d-flex .img-bg- {
+    padding-top: 48%;
+  }
+}
+
+@media (max-width: 750px) {
   .transform .d-flex.flex {
     display: -webkit-box;
     display: -ms-flexbox;
